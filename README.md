@@ -11,5 +11,5 @@ To run a local copy of the website:
 
 ```sh
 yarn install
-yarn run docs:devtest
+yarn run docs:dev
 ```
