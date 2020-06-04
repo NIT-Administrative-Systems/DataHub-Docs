@@ -1,10 +1,32 @@
 # Powered By DataHub
-Explore Northwestern web services built with the DataHub tool.
+Explore some of the Northwestern web services built using DataHub.
 
-| System  | Number of Web Services | 
-|---------|------------------------|
-| InfoEd  | 10 web services |
-| MyHR | 1 web service with 6 endpoints |
-| Data Warehouse | 3 Interfolio web services| 
+All DataHub services can be found on the [API Service Registry](https://apiserviceregistry.northwestern.edu/), look for the badge: 
 
-Look for the <img src="https://img.shields.io/static/v1?style=for-the-badge&label=Powered%20by&message=DataHub&color=4E2A84"> badge on the [API Service Registry](https://apiserviceregistry.northwestern.edu/).
+<img src="https://img.shields.io/static/v1?style=for-the-badge&label=Powered%20by&message=DataHub&color=4E2A84">
+
+### InfoEd Services
+|Service | Description|
+| --- | ----- |
+| Proposal Change Requests | Provides demographics for the New and Amendment Subaward Change Requests as well as the XML which stores the data in the eForm.|
+| Proposal Animal and Human Subject | Provides the proposal number and whether or not the propsoal routing from indicates human or animal subjects.|
+| Proposal Award Number |Provides the award number and award date of the original award period.|
+| Proposal External Personnel | Shows all the requested and awarded personnel on subawards.|
+| Proposal NU Personnel | Contains all the NU requested proposal personnel and all the NU awarded personnel.
+| Proposal Parent | Provides proposal and award demographic information including the parent record if the record is a subproject. | 
+| Proposal with JIT | Provides a list of proposals in the JIT statuses. |
+| SubAward Institution Xwalk | Provides the name of an institution when passed the unique database identifier (Supporting service to XML from Infoed - Change Requests service). |
+| List DA3 Users | This service returns a list of users with the Department Adnimistrator 3 (DA3) security role in InfoEd. |
+| Sponsor Data | This service includes city/state/country for InfoEd sponsors, for consumption by NU Scholars and any other interested consumers. |
+
+### MyHR Services
+|Service | Description|
+| --- | ----- |
+| Department | This contains myhr department and admin unit information. 6 GET requests are available: all-departments, all-departments-by-an-admin-unit, all-departments-by-a-dept-group,primary-departments-only, all-admin-unit and an-admin-unit. |
+
+### Data Warehouse Services
+|Service | Description|
+|----|----|
+| Interfolio - Patent - Application | No description available. |
+| Interfolio - Patent - Issue | No description available. |
+| Interfolio - Invention | No description available. |

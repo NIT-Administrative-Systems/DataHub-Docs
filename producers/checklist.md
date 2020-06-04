@@ -16,14 +16,15 @@ Next, provide the following to the DataHub admins:
   - Please do not include newline characters, and escape any double quotes with a backslash
 - **Configure as large query? (Yes or No)**
 :::details What is a "Large" query in DataHub?
-The AWS/Apigee services we use limit the response body size to **10MB** and impose a hard time limit on returning results. 
-  - If the query takes longer than ~15 seconds it will not work with DataHub.
-  - If your query results exceed the 10MB limit on the payload but returns faster than ~15 seconds we can configure it as a “large” query in DataHub: to get around the 10MB AWS/Apigee payload size limit, DataHub returns a url the consuming application can use to download the data instead of returning the data directly in the response.
-  - This is a one-time decision from the outset; if you anticipate the results exceeding 10MB in the future, you should choose the "large" query option. 
+The AWS/Apigee services we use limit the response body size to **6MB** and impose a hard time limit on returning results. 
+  - If the query takes longer than 18 seconds it will not work with DataHub.
+  - If your query results exceed the 6MB limit on the payload but returns faster than 18 seconds we can configure it as a “large” query in DataHub: to get around the 6MB AWS payload size limit, DataHub returns a url the consuming application can use to download the data instead of returning the data directly in the response.
+  - This is a one-time decision from the outset; if you anticipate the results exceeding 6MB in the future, you should choose the "large" query option. 
 :::
 - **Database connection information**
   1. Connection string (including host, port, and service name)
   1. Database username
       - The system should be assigned a read-only DataHub user, with permissions for the tables that are needed
   1. Database password
+  1. Database type (e.g. oracle)
 - Name for finished web service and one-line description.
