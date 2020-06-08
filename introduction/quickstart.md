@@ -8,7 +8,7 @@ This Quick Start provides the initial actions for the developers who prefer a 'j
 ## Consuming Data
 *DataHub could help me consume another system's data*
 - Identify/define the specific requirements for the service.
-- Identify the producing system/owner of the data points.
+- Identify the producing system/owner of the data.
 - Open a footprints ticket with 'DataHub' in the subject.
   - Route the ticket to Jason Miller (NUIT Administrative Systems).
 - Your request will be evaluated.
@@ -20,6 +20,6 @@ This Quick Start provides the initial actions for the developers who prefer a 'j
   - Route the ticket to Jason Miller (NUIT Administrative Systems).
 - Your request will be evaluated. If determined appropriate for DataHub:
   - A workflow will be initiated to obtain and document the necessary approvals.
-  - Once approved, complete the [Producer Checklist](./producers/checklist.md). 
+  - Once approved via workflow, complete the [Producer Checklist](./producers/checklist.md). 
 
   

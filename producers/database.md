@@ -1,4 +1,4 @@
-# Supported Target Databases
+# Database Support
 
 Currently, DataHub supports the following target databases: 
 

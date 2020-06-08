@@ -37,8 +37,8 @@ module.exports = {
                 title: 'Producers',
                 collapsable: false,
                 children: [
-                    'queries',
                     'checklist',
+                    'queries',
                     'database',
                 ].map(file => 'producers/' + file),
             },
