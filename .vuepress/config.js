@@ -9,25 +9,27 @@ module.exports = {
     ],
 
     themeConfig: {
+        sidebarDepth: 0,
         repo: 'NIT-Administrative-Systems/DataHub-Docs',
         docsDir: '',
         docsBranch: 'master',
         editLinks: false,
         lastUpdated: true,
 
-        sidebar: [{
-                title: 'Introduction',
+        sidebar: [
+            {
+                title: 'Introduction', 
                 collapsable: false,
                 children: [
-                    ['/', 'Overview'],
-                    ['quickstart', 'Quick Start']
-                ],
+                    'overview',
+                    'quickstart'
+                ].map(file => 'introduction/' + file),
             },
             {
                 title: 'Consumers',
                 collapsable: false,
                 children: [
-                    'overview',
+                    'request',
                     'services',
                 ].map(file => 'consumers/' + file),
             },
