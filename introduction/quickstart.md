@@ -6,7 +6,7 @@ This Quick Start provides the initial actions for the developers who prefer a 'j
 
 
 ## Consuming Data
-*DataHub could help me consume another system's data*
+*DataHub could help me consume another system's data for which there's no API*
 - Identify/define the specific requirements for the service.
 - Identify the producing system/owner of the data.
 - Open a footprints ticket with 'DataHub' in the subject.
