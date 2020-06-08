@@ -8,4 +8,4 @@ Currently, DataHub supports the following target databases:
 
 Requests welcome! Support for other database types will be added as the need is demonstrated.
 
-See the <a href="./assets/DataHub_Developer_Docs.docx" download>DataHub Documentation for Developers</a> for target-specific documentation (e.g. handling of duplicate column names).
+See the <a href="/DataHub_UserSetUpDoc.docx" download>DataHub Documentation for Developers</a> for target-specific documentation (e.g. handling of duplicate column names).

@@ -7,8 +7,8 @@ Once the data steward approves your request **via the Web Request Workflow**, pl
         * Dev/Test: request access for source address 10.28.192.160/27
         * Prod: request access for source address 10.28.196.160/27
 - **Create Apigee Proxy**
-    * <a href="./assets/datahub-customer-starter.zip" download>Download DatatHub Starter Proxy</a> for Apigee.
-    * <a href="./assets/DataHub_Developer_Docs.docx" download>Download DataHub Documentation for Developers</a> which includes step-by-step instructions on the Apigee setup on page 12-16. 
+    * <a href="/datahub-customer-starter.zip" download>Download DatatHub Starter Proxy</a> for Apigee.
+    * <a href="/DataHub_UserSetUpDoc.docx.docx" download>Download DataHub Documentation for Developers</a> which includes step-by-step instructions on the Apigee setup on page 12-16. 
 
 Next, provide the following to the DataHub admins: 
 
@@ -23,8 +23,8 @@ The AWS/Apigee services we use limit the response body size to **6MB** and impos
 :::
 - **Database connection information**
   1. Connection string (including host, port, and service name)
-  1. Database username
+  2. Database username
       - The system should be assigned a read-only DataHub user, with permissions for the tables that are needed
-  1. Database password
-  1. Database type (e.g. oracle)
+  3. Database password
+  4. Database type (e.g. oracle)
 - Name for finished web service and one-line description.

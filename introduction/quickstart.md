@@ -2,7 +2,7 @@
 
 This Quick Start provides the initial actions for the developers who prefer a 'jump right in' approach. If you'd prefer to gain a greater understanding of how DataHub works and how everything fits together before you jump in, we recommend starting with the DataHub Developer Documentation.
 
-<a href="/DataHub_Developer_Docs.docx" download>Download Developer Docs</a>
+<a href="/DataHub_UserSetUpDoc.docx" download>Download Developer Docs</a>
 
 
 ## Consuming Data
