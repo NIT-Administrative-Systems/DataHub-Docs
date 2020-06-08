@@ -7,7 +7,7 @@ Once the data steward approves your request **via the Web Request Workflow**, pl
         * Dev/Test: request access for source address 10.28.192.160/27
         * Prod: request access for source address 10.28.196.160/27
 - **Create Apigee Proxy**
-    * <a :href="$withBase('datahub-customer-starter.zip')" download>Download DatatHub Starter Proxy</a> for Apigee.
+    * <a :href="$withBase('datahub-customer-starter.zip')" download>Download DataHub Starter Proxy</a> for Apigee.
     * <a :href="$withBase('/DataHub_UserSetUpDoc.docx')" download>Download DataHub Documentation for Developers</a> which includes step-by-step instructions on the Apigee setup on page 12-16. 
 
 Next, provide the following to the DataHub admins: 
