@@ -13,7 +13,7 @@ Once the data steward approves your request **via the Web Request Workflow**, pl
 Next, provide the following to the DataHub admins: 
 
 - **SQL query**
-  - Please do not include newline characters, and escape any double quotes with a backslash
+  - Remove newline characters and escape any double quotes with a backslash
 - **Configure as large query? (Yes or No)**
 :::details What is a "Large" query in DataHub?
 The AWS/Apigee services we use limit the response body size to **6MB** and impose a hard time limit on returning results. 
