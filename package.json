@@ -12,6 +12,6 @@
     "watchpack": "1.6.1"
   },
   "dependencies": {
-    "watchpack": "^1.7.4"
+    "watchpack": "^2.0.0"
   }
 }
