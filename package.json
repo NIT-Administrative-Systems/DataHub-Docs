@@ -6,7 +6,7 @@
     "docs:build": "vuepress build"
   },
   "devDependencies": {
-    "vuepress": "^1.5.4"
+    "vuepress": "^1.6.0"
   },
   "resolutions": {
     "watchpack": "1.6.1"
