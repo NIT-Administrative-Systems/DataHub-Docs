@@ -22,7 +22,13 @@ All DataHub services can be found on the [API Service Registry](https://apiservi
 ### MyHR Services
 |Service | Description|
 | --- | ----- |
-| Department | This contains myhr department and admin unit information. 6 GET requests are available: all-departments, all-departments-by-an-admin-unit, all-departments-by-a-dept-group,primary-departments-only, all-admin-unit and an-admin-unit. |
+| MyHR Department | This contains myhr department and admin unit information. 6 GET requests are available: all-departments, all-departments-by-an-admin-unit, all-departments-by-a-dept-group,primary-departments-only, all-admin-unit and an-admin-unit. |
+| MyHR Color Participant Search | This service queries the MyHR Color Audit Table for a NetID to verify whether they were sent to the Color test provider and what email address was sent to Color. For consumption by the Color Cohort Assignment web application. |
+
+### Caesar Services
+|Service | Description|
+| --- | ----- |
+| Caesar Color Participant Search | This service queries the Caesar Color Audit Table for a NetID to verify whether they were sent to the Color test provider and what email address was sent to Color. For consumption by the Color Cohort Assignment web application. |
 
 ### Data Warehouse Services
 |Service | Description|
