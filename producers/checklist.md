@@ -3,9 +3,12 @@
 Once the data steward approves your request **via the Web Request Workflow**, please complete the following items: 
 
 - **Submit firewall requests**
-    * You need to submit any necessary Firewall Requests for connecting to your target database from DataHub:
-        * Dev/Test: request access for source address 10.28.192.160/27
-        * Prod: request access for source address 10.28.196.160/27
+    * **If this it the first DataHub service built for your target database (see [existing services](../consumers/services)):**
+       * You need to submit any necessary Firewall Requests for connecting to your target database from DataHub:
+           * Dev/Test: request access for source address 10.28.192.160/27
+           * Prod: request access for source address 10.28.196.160/27
+    * **If DataHub services already exist for your target database:**
+      * You do not need to submit firewall requests for connecting to your target database from DataHub.
 - **Create Apigee Proxy**
     * <a :href="$withBase('/datahub-customer-starter.zip')" download>Download DataHub Starter Proxy</a> for Apigee.
     * <a :href="$withBase('/DataHub_UserSetUpDoc.docx')" download>Download DataHub Documentation for Developers</a> which includes step-by-step instructions on the Apigee setup on page 12-16. 
@@ -25,6 +28,8 @@ The AWS/Apigee services we use limit the response body size to **6MB** and impos
   1. Connection string (including host, port, and service name)
   2. Database username
       - The system should be assigned a read-only DataHub user, with permissions for the tables that are needed
+          - **If this is the first DataHub service built for your target database:** request a new read-only user be created for datahub, with the permissions needed for the tables in your query. 
+          - **If DataHub services already exist for your target database:** request that permissions for the tables needed in your query be added to the existing read-only datahub user. 
   3. Database password
   4. Database type (e.g. oracle)
 - Name for finished web service and one-line description.
