@@ -36,3 +36,4 @@ All DataHub services can be found on the [API Service Registry](https://apiservi
 | Interfolio - Patent - Application | No description available. |
 | Interfolio - Patent - Issue | No description available. |
 | Interfolio - Invention | No description available. |
+| Covid Cohort Lookup | This API is to lookup an individual's covid cohort assignment in the Enterprise Data Warehouse by netid. For consumption by the Cohort Assignment web application. |
