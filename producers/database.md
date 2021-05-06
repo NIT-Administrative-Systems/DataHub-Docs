@@ -4,7 +4,7 @@ Currently, DataHub supports the following target databases:
 
 | Database Type | Supported Versions | DataHub Driver | 
 | ----- | ------| ---- | 
-| Oracle Database | Oracle Database 10.2 or greater | Oracle Instant Client Basic for Linux 12.1.0.2.0 | 
+| Oracle Database | Oracle Database 11.2 or greater | Oracle Instant Client Basic Light for Linux 19.11.0.0.0 | 
 
 Requests welcome! Support for other database types will be added as the need is demonstrated.
 
