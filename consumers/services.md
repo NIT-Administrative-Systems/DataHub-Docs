@@ -18,6 +18,9 @@ All DataHub services can be found on the [API Service Registry](https://apiservi
 | SubAward Institution Xwalk | Provides the name of an institution when passed the unique database identifier (Supporting service to XML from Infoed - Change Requests service). |
 | List DA3 Users | This service returns a list of users with the Department Adnimistrator 3 (DA3) security role in InfoEd. |
 | Sponsor Data | This service includes city/state/country for InfoEd sponsors, for consumption by NU Scholars and any other interested consumers. |
+| Subaward Demographic Information | This service returns demographic information about new and amendment subawards as well as the XML which contains the data users have entered on the intake eform. |
+| Subaward Institution | This returns the text institution name after passing the unique identifier of the subaward institution. (Supporting service to XML from the Infoed - Subaward Demographic Information service. |
+| Subaward PI Name | This returns the text PI name after passing the unique identifier of the subaward PI. (Supporting service to XML from the Infoed - Subaward Demographic Information service). |
 
 ### MyHR Services
 |Service | Description|
@@ -37,3 +40,4 @@ All DataHub services can be found on the [API Service Registry](https://apiservi
 | Interfolio - Patent - Issue | No description available. |
 | Interfolio - Invention | No description available. |
 | Covid Cohort Lookup | This API is to lookup an individual's covid cohort assignment in the Enterprise Data Warehouse by netid. For consumption by the Cohort Assignment web application. |
+| COVID - Symptom Tracker | For consumption by Northwestern Medicine's COVID symptom tracker application to integrate COVID test and vaccination data. |
