@@ -7,7 +7,7 @@
   },
   "devDependencies": {
     "vuepress": "^1.9.8",
-    "watchpack": "^2.3.1"
+    "watchpack": "^2.4.0"
   },
   "dependencies": {}
 }
