@@ -6,7 +6,7 @@
     "docs:build": "vuepress build"
   },
   "devDependencies": {
-    "vuepress": "^1.9.8",
+    "vuepress": "^1.9.9",
     "watchpack": "^2.4.0"
   },
   "dependencies": {}
