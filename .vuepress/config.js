@@ -22,7 +22,7 @@ module.exports = {
                 collapsable: false,
                 children: [
                     'overview',
-                    'quickstart'
+                    'request'
                 ].map(file => 'introduction/' + file),
             },
             {
