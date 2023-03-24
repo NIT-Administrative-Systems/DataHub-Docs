@@ -18,6 +18,6 @@ This guide is for initiating the request to build a new DataHub API. If you'd pr
 *DataHub could help me consume another system's data*
 - Identify/define the specific requirements for the service
 - Identify the system that holds the data 
-- Open a ticket with "DataHub" in the subject and include the requirements and the system holding the data.
+- Open an [IT Service Request ticket](https://services.northwestern.edu/TDClient/30/Portal/Requests/TicketRequests/NewForm?ID=d5KoWKzQ5aA_&RequestorType=Service) 
 - Route the ticket to Jason Miller (NUIT Administrative Systems).
 - Your request will be evaluated. If determined appropriate for DataHub, we will engage the owners of the target system for next steps; they would have to provide a resource to produce the service (write the SQL query, create documentation, etc.) and would own the resulting API.
