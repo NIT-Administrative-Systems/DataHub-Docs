@@ -2,7 +2,7 @@
 
 Currently, DataHub supports the following target databases: 
 
-| Database Type | Supported Versions | DataHub Database Driver | 
+| Database Type | Supported Versions | DataHub Driver | 
 | ----- | ------| ---- | 
 | Oracle Database | Oracle Database 12.1 or greater; note that fatabases using Native Network Encryption instead of TLS are not currently supported by DataHub. | `node-oracledb` default Thin mode | 
 
