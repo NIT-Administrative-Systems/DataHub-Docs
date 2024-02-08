@@ -40,6 +40,7 @@ module.exports = {
                     'checklist',
                     'queries',
                     'database',
+                    'updateExisting'
                 ].map(file => 'producers/' + file),
             },
         ],
