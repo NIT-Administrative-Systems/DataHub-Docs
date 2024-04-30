@@ -4,7 +4,7 @@ This guide is for initiating the request to build a new DataHub API. If you'd pr
 
 ## Create an API for your system
 *I want to expose my SQL query as a web service*
-- Review the [Query Requirements](./producers/queries.html)
+- Review the [Query Requirements](../producers/queries.html)
 - Open an [IT Service Request ticket](https://services.northwestern.edu/TDClient/30/Portal/Requests/TicketRequests/NewForm?ID=d5KoWKzQ5aA_&RequestorType=Service) with "DataHub" in the subject and include: 
   - Which system currently holds the requested data
   - A description of the requested data 
